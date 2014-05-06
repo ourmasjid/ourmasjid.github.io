@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2012 Oak Studios LLC
+* 
+* Upload this file to your web server
+* and place this within your <head> tags.
+* <link href="webfonts/ss-standard.css" rel="stylesheet" />
+*/
+
+@font-face {
+  font-family: "SSOakUI";
+  src: url('ss-oakui.eot');
+  src: url('ss-oakui.eot?#iefix') format('embedded-opentype'), 
+       url('ss-oakui.woff') format('woff'), 
+       url('ss-oakui.ttf')  format('truetype'),
+       url('ss-oakui.svg#SSOakUI') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ss-icon, .ss-icon.ss-ui,
+[class^="ss-"]:before, [class*=" ss-"]:before,
+[class^="ss-"].ss-ui:before, [class*=" ss-"].ss-ui:before,
+[class^="ss-"].right:after, [class*=" ss-"].right:after,
+[class^="ss-"].ss-ui.right:after, [class*=" ss-"].ss-ui.right:after {
+  font-family: "SSOakUI";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+[class^="ss-"].right:before, [class*=" ss-"].right:before,
+[class^="ss-"].ss-ui.right:before, [class*=" ss-"].ss-ui.right:before{display:none;content:'';}
+
+.ss-oak:before,.ss-oak.right:after{content:''}.ss-heart:before,.ss-heart.right:after{content:'♥'}.ss-link:before,.ss-link.right:after{content:'🔗'}.ss-rss:before,.ss-rss.right:after{content:''}.ss-twitter:before,.ss-twitter.right:after{content:''}.ss-write:before,.ss-write.right:after{content:'✎'}.ss-directright:before,.ss-directright.right:after{content:'▹'}.ss-navigateright:before,.ss-navigateright.right:after{content:'▻'}.ss-navigateleft:before,.ss-navigateleft.right:after{content:'◅'}
